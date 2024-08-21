@@ -1,0 +1,507 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.biblioteca .rectangle-1 {
+  background: #D9D9D9;
+  width: 23.9rem;
+  height: 3.9rem;
+}
+.biblioteca .inicio {
+  margin-right: 0.9rem;
+  width: 3.8rem;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+.biblioteca .noticias {
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+.biblioteca .publicaciones {
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+.biblioteca .nosotros {
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+.biblioteca .list-menu {
+  margin: 1.1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 34.2rem;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.biblioteca .nav {
+  background: #1B408A;
+  position: relative;
+  margin-bottom: 4.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 4.2rem 1.1rem 4.1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.biblioteca .biblioteca-1 {
+  margin: 0 2.5rem 4.7rem 2.5rem;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 3rem;
+  color: #000000;
+}
+.biblioteca .filtros {
+  background: #D9D9D9;
+  width: 22.3rem;
+  height: 36.4rem;
+}
+.biblioteca .rectangle-16 {
+  width: 25rem;
+  height: 50rem;
+  background: url('../assets/images/rectangle_16.png') center;
+}
+.biblioteca .del-centro {
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.biblioteca .container-5 {
+  border-radius: 1.6rem;
+  background: #22B9C1;
+  position: relative;
+  margin-bottom: 1.4rem;
+  display: flex;
+
+  padding: 0.1rem 0 0.1rem 0;
+  width: 10.9rem;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.biblioteca .autor {
+  margin-right: 3.2rem;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.005;
+  color: #000000;
+}
+.biblioteca .fecha-de-salida {
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.005;
+  color: #000000;
+}
+.biblioteca .container-12 {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.biblioteca .resea {
+  margin-bottom: 20.6rem;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.005;
+  color: #000000;
+}
+.biblioteca .leer-ms {
+  margin-right: 1rem;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #000000;
+}
+.biblioteca .vector-10 {
+  width: 0.5rem;
+  height: 1rem;
+  transform: rotate(180deg);
+}
+.biblioteca .vector-9 {
+  margin-top: 0;
+  width: 0.5rem;
+  height: 1rem;
+  transform: rotate(180deg);
+}
+.biblioteca .expand-right-double {
+  margin: 0.4rem 0 0.3rem 0;
+  display: flex;
+  flex-direction: row;
+  width: 2rem;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.biblioteca .container-9 {
+  border: 0 solid #000000;
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  padding: 1.1rem;
+  width: fit-content;
+  box-sizing: border-box;
+  margin: 0 0.8rem 0.8rem;
+}
+.biblioteca .container-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.biblioteca .container-3 {
+  margin: 0 2.5rem 3.4rem 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+  gap: 4rem;
+}
+.biblioteca .rectangle-45 {
+  background: url('../assets/images/rectangle_16.png');
+  margin-right: 2.1rem;
+  width: 20.8rem;
+  height: 36.4rem;
+}
+.biblioteca .externo {
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+.biblioteca .container-13 {
+  border-radius: 1.6rem;
+  background: #22B9C1;
+  position: relative;
+  margin-bottom: 1.4rem;
+  display: flex;
+  align-self: flex-start;
+  padding: 0.1rem 1.1rem;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.biblioteca .autor-1 {
+  margin-right: 3.2rem;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.005;
+  color: #000000;
+}
+.biblioteca .fecha-de-salida-1 {
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.005;
+  color: #000000;
+}
+.biblioteca .container-4 {
+  margin-bottom: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.biblioteca .resea-1 {
+  margin-bottom: 20.8rem;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.005;
+  color: #000000;
+}
+.biblioteca .leer-ms-1 {
+  margin-right: 1rem;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #000000;
+}
+.biblioteca .vector-101 {
+  width: 0.5rem;
+  height: 1rem;
+}
+.biblioteca .vector-91 {
+  width: 0.5rem;
+  height: 1rem;
+}
+.biblioteca .expand-right-double-1 {
+  margin: 0.4rem 0 0.3rem 0;
+  display: flex;
+  flex-direction: row;
+  width: 2rem;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.biblioteca .container-10 {
+  border: 0rem solid #000000;
+  background: #FFFFFF;
+  position: relative;
+  margin: 0 0.3rem;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  padding: 1.1rem;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.biblioteca .container-8 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.biblioteca .container-11 {
+  margin: 0 0 4.2rem 9.9rem;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.biblioteca .arrow-left-1 {
+  width: 2.4rem;
+  height: 2.5rem;
+}
+.biblioteca .ellipse-8 {
+  margin-right: 0.6rem;
+  width: 1.1rem;
+  height: 0.9rem;
+}
+.biblioteca .ellipse-9 {
+  margin-right: 0.6rem;
+  width: 1.1rem;
+  height: 0.9rem;
+}
+.biblioteca .ellipse-10 {
+  width: 1.1rem;
+  height: 0.9rem;
+}
+.biblioteca .pagination {
+  margin: 0.8rem 0;
+  display: flex;
+  flex-direction: row;
+  width: 4.3rem;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.biblioteca .arrow-right-1 {
+  margin-bottom: 0.1rem;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.biblioteca .container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  width: 17.4rem;
+  box-sizing: border-box;
+  margin-bottom: 4rem;
+}
+.biblioteca .contctanos-ahora {
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 2rem;
+  color: #FFFCFC;
+}
+.biblioteca .nombre {
+  margin: 0 0.2rem 0.6rem 0.2rem;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+.biblioteca .rectangle-31 {
+  border-radius: 0.9rem;
+  background: #FFFFFF;
+  margin: 0 0.1rem 2.3rem 0.1rem;
+  width: 24.9rem;
+  height: 3.2rem;
+}
+.biblioteca .correo-electrnico {
+  margin: 0 0.1rem 0.6rem 0.1rem;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+.biblioteca .rectangle-42 {
+  border-radius: 0.9rem;
+  background: #FFFFFF;
+  margin: 0 0.1rem 2.3rem 0;
+  width: 24.9rem;
+  height: 3.2rem;
+}
+.biblioteca .mensaje {
+  margin: 0 0.3rem 0.6rem 0.3rem;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+.biblioteca .rectangle-33 {
+  border-radius: 0.9rem;
+  background: #FFFFFF;
+  margin: 0 0 1.6rem 0.1rem;
+  width: 24.9rem;
+  height: 8.8rem;
+}
+.biblioteca .enviar {
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000000;
+}
+.biblioteca .container-1 {
+  border-radius: 0.9rem;
+  border: 0.1rem solid #000000;
+  background: #FFFFFF;
+  position: relative;
+  margin: 0 0.3rem;
+  display: flex;
+  align-self: flex-end;
+  padding: 0.2rem 0.9rem;
+  box-sizing: border-box;
+}
+.biblioteca .container {
+  border-radius: 1.6rem;
+  border: 0.2rem solid #FFFFFF;
+  position: relative;
+  margin: 0 6.7rem 3rem 6.7rem;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding: 1.6rem 1.2rem 1.1rem 1.3rem;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.biblioteca .line-1 {
+  background: #FFFFFF;
+  margin-bottom: 1.5rem;
+  width: 90rem;
+  height: 0rem;
+}
+.biblioteca .todos-los-derechos-reservados {
+  margin-right: 0.9rem;
+  width: 26.1rem;
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFFCFC;
+}
+.biblioteca .polticas-de-seguridad {
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFFCFC;
+}
+
+.biblioteca .trminos-yservicios {
+  overflow-wrap: break-word;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFFCFC;
+}
+
+.biblioteca .container-7 {
+  margin: 0 6.1rem 0 6.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 77.3rem;
+  box-sizing: border-box;
+}
+
+.biblioteca .footer {
+  background: #1B408A;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.biblioteca {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenido {
+  margin-top: 0.8rem;
+}
+
+.tarjetas {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.contenedor-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 2rem;
+  width: fit-content;
+  margin-top: 2rem;
+}
